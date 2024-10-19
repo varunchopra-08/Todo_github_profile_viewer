@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 500px;
+    margin:50px auto;
+    background: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0  ,0,0.1);
+
+}
+h1{
+    text-align: center;
+}
+input[type="text"]{
+    width:70%;
+    padding: 10px;
+    margin:20px 60px;
+    
+
+}
+button{
+    padding: 5px;
+    cursor: pointer;    
+    
+}
+
+.part2{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+    
+    
+}
+button:hover{
+    color: darkblue;
+}
+ul {
+    
+    font-size: 20px;
+    margin-left:60px;
+}
+.github{
+    max-width: 500px;
+    margin:50px auto;
+    background: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0  ,0,0.1);
+    
+
+}
+.profile{
+    display: flex;
+    gap: 20px;
+    margin:50px;
+    background: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0  ,0,0.1);
+    
+}
